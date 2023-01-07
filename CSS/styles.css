@@ -7,28 +7,7 @@ body{
     color:#40514E;
 }
 
-/*
-.navbar{
-    margin: auto;
-    position: sticky;
-    top:0;
-}
-.navbar ul{
-    display: flex;
-    
-    position: absolute;
-   right:10%;
-   top:-125px;
-    
-}
 
-.navbar ul li{
-    list-style: none;
-    font-size: 1.5rem;
-    
-}
-
-*/
 .top-container{
     background-color: #E4F9F5;
     padding-top: 100px;
@@ -45,7 +24,7 @@ h1{
 
 h2{
     font-family: 'Varela Round', sans-serif;
-    font-size:2.5rem;
+    font-size:2.4rem;
     color:#66BFBF;
     font-weight: normal;
     padding-bottom: 10px;
@@ -97,6 +76,10 @@ span{
     width:170px;
 }
 
+.pic img{
+    padding:20px 20px;
+}
+
 
 .skill-row{
     width:50%;
@@ -105,7 +88,7 @@ span{
 }
 
 p{
-    font-size:1.2rem;
+    font-size:1.0rem;
     line-height: 2;
     font-family: 'Varela Round', sans-serif;
 }
@@ -121,7 +104,7 @@ a{
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -148,9 +131,7 @@ a:hover{
 }
 
 
-.mountain-img{
-    width:38%;
-}
+
 
 
 .contact-message{
@@ -187,3 +168,59 @@ a:hover{
   }
 
 
+  @media screen and (max-width: 610px) {
+    .mount-img{
+        width:20rem;
+    }
+    .top-cloud{
+       right:200px;
+    }
+    .bottom-cloud{
+       
+        left:200px;
+        bottom: 180px;
+    }
+
+
+    h1{
+        font-size:3.625rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+    
+   .dev{
+        font-size:1.7rem;
+    }
+    .intro{
+        width:90%;
+    }
+
+
+    .contact-message{
+        width:90%;
+
+    }
+
+    .resume{
+        display: flex;
+        justify-content: center;
+    }
+
+    .chilli-img{
+        width: 35%;
+        float: none;
+        margin:auto;
+    }
+    
+    .code-img{
+        width:35%;
+        float:none;
+        margin:auto;
+    }
+    .skill-row{
+        width:90%;
+        text-align: center;
+    }
+  }
